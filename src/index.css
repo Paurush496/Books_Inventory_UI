@@ -1,0 +1,36 @@
+#header_container {
+    text-align:center;
+}
+
+#search_contaier {
+    display: inline-flex;
+}
+
+#book-search {
+    margin: 30px;
+    height: 30px;
+}
+
+.card_wrapper {
+    width: 550px;
+    margin: auto;
+    margin-block-end: 5px;
+    border: brown;
+    border-style: double;
+    background: antiquewhite;
+}
+
+#card_body, #card_footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+
+#book_info, #inventory_status {
+    padding: 10px;
+}
+
+#noOfCopies {
+    width: 50px;
+}
