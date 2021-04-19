@@ -5,7 +5,7 @@ import './index.css';
 import { SearchInventory } from './SearchInventory.js';
 import { ListBookCards } from './ListBookCards.js';
 
-const url = "http://localhost:8080/api/book/"
+const url = "https://book-store-service.herokuapp.com/api/"
 
 class BookStore extends React.Component {
     constructor(props) {

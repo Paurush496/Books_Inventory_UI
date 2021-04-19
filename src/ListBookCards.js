@@ -1,6 +1,8 @@
 import React from 'react';
 import { BookCard } from './BookCard';
 
+const url = "https://book-store-service.herokuapp.com/api/book/"
+
 export class ListBookCards extends React.Component {
     constructor(props) {
         super(props);
